@@ -1,0 +1,37 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	box-sizing: border-box;
+}
+#all {
+	width: 500px;
+	height: 340px;
+	margin: auto;
+	margin-top: 200px;
+}
+img	{
+	width: 100%;
+	border-radius: 30px;
+}
+h1 {
+	font-size: 24px;
+}
+#all:hover img{
+	opacity: 0.5;
+}
+#menu {
+	width: 500px;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	transition: 2s;
+	opacity: 0;
+}
+#all:hover #menu {
+	opacity: 1;
+	bottom: 50px;	
+}
+p {
+	text-align: justify;
+}

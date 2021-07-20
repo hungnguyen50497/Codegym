@@ -1,0 +1,74 @@
+@keyframes example {
+	/*from {
+		background: red;
+	}
+	to {
+		background: green;
+	}*/
+	0% {
+		top: 0px;
+		left: 0px;
+		background: red;
+	}
+	25% {
+		top: 0px;
+		left: 200px;
+		background: green;
+	}
+	50% {
+		top: 200px;
+		left: 200px;
+		background: blue;
+	}
+	75% {
+		top: 200px;
+		left: 0px;
+		background: green;
+	}
+	100% {
+		top: 0px;
+		left: 0px;
+		background: red;
+	}
+
+}
+#div1 {
+	width: 100px;
+	height: 100px;
+	animation-name: example;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	position: relative;
+}
+@keyframes xoay {
+	/*from {
+		transform: rotate(20deg)
+	}
+	to {
+		transform: rotate(-20deg)
+	}*/
+	0% {
+		transform: rotate(20deg)
+	}
+	25% {
+		transform: rotate(-20deg)
+	}
+	50% {
+		transform: rotate(20deg)
+	}
+	75% {
+		transform: rotate(-20deg)
+	}
+	100% {
+		transform: rotate(20deg)
+	}
+	}
+#div2 {
+	width: 200px;
+	height: 100px;
+	background: red;
+	margin-top: 250px;
+	animation-name: xoay;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
